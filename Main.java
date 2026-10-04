@@ -39,16 +39,44 @@ public class Main {
       System.out.println(sentence3);
       System.out.println(sentence4);
 
+
+      //The scan stuff (its like the input that the user puts in https://marisajean.github.io/javadocs/docs/unit1/notes104.html)
+      
       Scanner scan = new Scanner(System.in);
       System.out.print("Enter an adjective: ");
       adjective1 = scan.nextLine();
+      System.out.print("Enter a place: ");
+      place1 = scan.nextLine();
+      System.out.print("Enter a verb: ");
+      verb1 = scan.nextLine();
       System.out.print("Enter another adjective: ");
       adjective2 = scan.nextLine();
+      System.out.print("Enter another place: ");
+      place2 = scan.nextLine();
+      System.out.print("Enter another verb: ");
+      verb2 = scan.nextLine();
       System.out.print("Enter a third adjective: ");
       adjective3 = scan.nextLine();
+      System.out.print("Enter a third place: ");
+      place3 = scan.nextLine();
+      System.out.print("Enter a third verb: ");
+      verb3 = scan.nextLine();
       System.out.print("Enter a fourth adjective: ");
       adjective4 = scan.nextLine();
+      System.out.print("Enter a fourth place: ");
+      place4 = scan.nextLine();
+      System.out.print("Enter a fourth verb: ");
+      verb4 = scan.nextLine();
 
+      sentence1 = "Ms. Dinko teaches the " + adjective1 + " Comp-Sci class! She teaches it in " + place1 + ". To effectively teach, she " + verb1 + "!";
+      sentence2 = "In our " + adjective2 + " class we prob learn. When she takes us to " + place2 + ", we learn the most and we also " + verb2 + ".";
+      sentence3 = "The class might not be the best though... It is also described as " + adjective3 + ". The students like to sneak off to the " + place3 + ". When they get there, they always " + verb3 + ".";
+      sentence4 = "The class is amazing for sure though. I would say it's " + adjective4 + ". And we always learn in our " + place4 + ". Together we will " + verb4 + "!";
+
+      System.out.println(sentence1);
+      System.out.println(sentence2);
+      System.out.println(sentence3);
+      System.out.println(sentence4);
 
 
    
